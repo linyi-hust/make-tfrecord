@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 cwd='E:\\python\\prostate-GAN\\asset\\data\\ADC\\test\\'
-classes={'n'} #人为 设定 2 类
+classes={'n','p'} #人为 设定 2 类
 writer= tf.python_io.TFRecordWriter("prostate_ADC_test.tfrecords") #要生成的文件
 
 for index,name in enumerate(classes):
